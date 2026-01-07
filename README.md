@@ -1,0 +1,1 @@
+## Yandex against everyone ##
