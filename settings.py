@@ -1,0 +1,23 @@
+import pathlib
+
+SCREEN_WIDTH = 1280
+SCREEN_HEIGHT = 720
+SCREEN_TITLE = "Яндекс-Марио"
+
+BASE_PATH = pathlib.Path(__file__).resolve().parent
+ASSETS_PATH = BASE_PATH / "assets"
+IMAGE_PATH = ASSETS_PATH / "images"
+SOUND_PATH = ASSETS_PATH / "sounds"
+LEVEL_PATH = BASE_PATH / "levels"
+
+GRAVITY = 1.0
+PLAYER_MOVE_SPEED = 5
+PLAYER_JUMP_SPEED = 18
+PLAYER_MAX_HEALTH = 3
+TILE_SIZE = 64
+COIN_SCORE = 10
+ENEMY_KILL_SCORE = 50
+BOSS_HEALTH = 20
+
+BACKGROUND_COLOR = (20, 20, 40)
+SAVE_FILE = BASE_PATH / "highscores.json"
