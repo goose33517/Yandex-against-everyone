@@ -65,7 +65,7 @@ yandex_mario/
 
 ### 1. Клонирование репозитория
 ```bash
-git clone <repository-url>
+git clone github.com/goose33517/Yandex-against-everyone
 cd yandex_mario
 ```
 
